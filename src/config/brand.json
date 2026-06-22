@@ -1,0 +1,19 @@
+export interface BrandConfig {
+  companyName: string
+  nit?: string
+  address?: string
+  phone?: string
+  logoUrl?: string
+  terms?: string
+}
+
+const brand: BrandConfig = {
+  companyName: 'Mi Empresa S.A.S',
+  nit: '900123456-7',
+  address: 'Calle Falsa 123, Ciudad',
+  phone: '+57 300 1234567',
+  logoUrl: '',
+  terms: 'Términos y condiciones por defecto...'
+}
+
+export default brand
